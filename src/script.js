@@ -1,7 +1,4 @@
-/*
-Check out the original dribbble shot
-https://dribbble.com/shots/2797559-Mr-bara-Split-Screen
-*/
+
 
 
 
