@@ -280,7 +280,7 @@ background-color: #515b3a;
   text-align: center;
   display: block;
   border-radius: 3rem;
-  background: #d02e2e;
+  background: #3cac82;
   text-transform: uppercase;
   border: none;
   font-size: 1rem;
@@ -288,6 +288,7 @@ background-color: #515b3a;
   font-weight: bold;
   outline: none;
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.3);
+  height: 40px;
 }
 .slider-container .slide-content .txt-wrapper .phone {
   display: block;
@@ -427,3 +428,4 @@ background-color: #515b3a;
 .language-wrapper {
   float: right;
 }
+
