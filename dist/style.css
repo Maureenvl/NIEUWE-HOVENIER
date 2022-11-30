@@ -9,13 +9,13 @@
 }
 
 body, html {
-  background: #a6d3a0;
+  background: #96616b;
   font-size: 6px;
   padding: 4rem 2rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: "Poppins", sans-serif;
-  color:#96616b;
+  color:#942f41;;
 }
 @media (min-width: 860px) {
   body, html {
@@ -429,3 +429,10 @@ background-color: #515b3a;
   float: right;
 }
 
+.prijzen{
+  font-size: 30px;
+  color:#942f41;
+  font-family: "Montserrat", sans-serif;
+  padding: 0,5rem ;
+  -webkit-font-smoothing: antialiased;
+}

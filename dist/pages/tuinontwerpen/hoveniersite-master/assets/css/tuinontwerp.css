@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #96616b
+}
+
+.header {
+    background-color: #443742;
+    height: 40px;
+}
+
+#headertext {
+    font-size: xx-large; 
+    font-weight: bolder;
+    color: #bbc7a4;
+    background-color: #443742;
+    margin-left: 550px;
+    margin-top: 20px;
+}
+
+.info {
+    background-color: #bbc7a4;
+}
+
+#infotext {
+    background-color: #bbc7a4;
+}
+
+.title {
+    font-size: xx-large; 
+    font-weight: bolder;
+    color: #000;
+    margin-top: 5px;
+    background-color: #bbc7a4;
+}
+
+#slogan h3 {
+    text-align: center;
+    color: #bbc7a4;
+    background-color: #443742;
+}
+
+.text {
+    font-size: larger;
+    font-weight: bold;
+    color: #000;
+    background-color: #bbc7a4;
+}
+
+.gallery {
+    margin-top: 10px;
+}
+
+#picture1 {
+    height: 500px;
+    transition: transform 0.5s ease-in-out;
+    margin-left: 50px;
+    border: 5px solid;
+    border-radius: 10px;
+    border-style: inherit;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+#picture2 {
+    height: 500px;
+    margin-left: 35px;
+    transition: transform 0.5s ease-in-out;
+    margin-left: 10px;
+    border: 5px solid;
+    border-radius: 10px;
+    border-style: inherit;
+}
+
+#picture3 {
+    height: 500px;
+    margin-left: 35px;
+    transition: transform 0.5s ease-in-out;
+    margin-left: 10px;
+    border: 5px solid;
+    border-radius: 10px;
+    border-style: inherit;
+}
+
+#picture1:hover {
+    transition: 0.70s;
+    transform: scale(1.1);
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+#picture2:hover {
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    transition: 0.70s;
+    transform: scale(1.1)
+}
+
+#picture3:hover {
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    transition: 0.70s;
+    transform: scale(1.1);
+}
+
+.tips {
+    margin-top: 50px;
+    background-color: #bbc7a4;
+}
+
+.footer {
+    background-color: #443742;
+    height: 50px; 
+}
+
+#footertext {
+    color: #fff;
+    background-color: #443742;
+}
+
+.list {
+    font-size: x-large;
+    font-weight: bold;
+    color: #000;
+    margin-left: 25px;
+    background-color: #a6d3a0;
+    height: 160px;
+}
+
+.listitem {
+    background-color: #a6d3a0;
+}

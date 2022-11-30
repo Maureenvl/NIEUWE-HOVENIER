@@ -1,0 +1,49 @@
+body{
+    margin: 0%;
+   background-color: #515b3a ;
+}
+
+header {
+    background-color: #443742;
+    height: 100px;
+    margin: 0%;
+}
+
+footer {
+    background-color:#a6d3a0 ;
+    height:100px ;
+    margin-top: 20px;
+}
+
+.container {
+    
+    height: 600px;
+    width: 100%;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    display: flex;
+    
+}
+
+.logohhh {
+    width: 20%;
+}
+
+.textover {
+    width: 50%;
+    background-color: #515b3a   ;
+    padding: 2%;
+
+}
+
+.imageover {
+    width: 50%;
+    background-color: #515b3a;
+ 
+}
+
+
+.fotodiv {
+    width: 81.2em;
+    
+}
