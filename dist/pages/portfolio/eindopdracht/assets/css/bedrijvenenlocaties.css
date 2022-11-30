@@ -30,14 +30,14 @@ footer {
 }
 
 .textover {
-    width: 50%;
+    width: 40%;
     background-color: #515b3a   ;
     padding: 2%;
 
 }
 
 .imageover {
-    width: 50%;
+    width: 60%;
     background-color: #515b3a;
  
 }
@@ -46,4 +46,22 @@ footer {
 .fotodiv {
     width: 81.2em;
     
+}
+
+.wiebenik {
+    background-color: #515b3a;
+    width: 70%;
+    padding: 1%;
+}
+
+.fotohendrik {
+    background-color: #515b3a;
+    width: 30%;
+    padding: 3%;
+}
+
+#hendrikfoto {
+    width: 50%;
+    border: 0.2em solid;
+    border-radius: 25%;
 }
