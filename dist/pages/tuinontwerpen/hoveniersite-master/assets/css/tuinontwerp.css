@@ -4,19 +4,20 @@
     background-color: #96616b
 }
 
-.header {
+header{
     background-color: #443742;
-    height: 40px;
-}
-
-#headertext {
-    font-size: xx-large; 
-    font-weight: bolder;
-    color: #bbc7a4;
-    background-color: #443742;
-    margin-left: 550px;
-    margin-top: 20px;
-}
+    width: auto;
+    height: 10rem;
+    margin-top: 1%;
+  }
+  
+  header img{
+    border-radius: 25px;
+    width: 20%;
+    height: auto;
+    margin-left: 2%;
+    padding: 1rem;
+  }
 
 .info {
     background-color: #bbc7a4;
@@ -39,6 +40,48 @@
     color: #bbc7a4;
     background-color: #443742;
 }
+
+.offerte {
+    background-color: #17de8b;
+    width: 33%;
+    height: 5rem;
+    display: block;
+    justify-items: center;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 5rem;
+    border-radius: 10px;
+  }
+  
+  .offerte h4 {
+    margin-left: 3%;
+    text-align: center;
+    margin-top: 5%;
+  }
+  
+  .offerte a {
+    text-decoration: none;
+    color: #fafafa;
+    cursor: pointer;
+    z-index: 0;
+    font-size: 1rem;
+  }
+  
+  .offerte a:hover {
+    color: #d1b7bc;
+    transition: 0.5s;
+  }
+  
+  .container {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 2rem;
+    background-color: rgba(186, 255, 180, 0.726);
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+  }
 
 .text {
     font-size: larger;
@@ -105,16 +148,6 @@
     background-color: #bbc7a4;
 }
 
-.footer {
-    background-color: #443742;
-    height: 50px; 
-}
-
-#footertext {
-    color: #fff;
-    background-color: #443742;
-}
-
 .list {
     font-size: x-large;
     font-weight: bold;
@@ -127,3 +160,62 @@
 .listitem {
     background-color: #a6d3a0;
 }
+
+footer {
+    height: 20rem;
+  }
+  
+  #contactg {
+    color: #cdc7c7;
+    float: left;
+    height: 17rem;
+    width: 25%;
+    padding: 2%;
+    margin-left: 4%;
+    /* background: rgb(151, 255, 191); */
+  }
+  #contactg h2{
+    color: #fafafa;
+  }
+  
+  #direct {
+    float: left;
+    width: 40%;
+    height: 16rem;
+    padding: 2%;
+    padding-left: 5%;
+    /* background: rgb(176, 26, 51); */
+    color: #fafafa;
+  }
+  
+  #direct a {
+    color: #d2cdcd;
+    text-decoration: none;
+  }
+  
+  #direct img {
+    width: 50%;
+    float: right;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  #directleft{
+    float: left;
+  }
+  
+  #website {
+    float: right;
+    /* background: #6ba368; */
+    width: 20%;
+    height: 10rem;
+    padding: 2%;
+    margin-right: 4%;
+    color: #fafafa;
+  
+  }
+  
+  #website a {
+    color: rgb(217, 211, 211);
+    text-decoration: none;
+  }
