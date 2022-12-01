@@ -173,7 +173,7 @@ background-color: #515b3a;
   background: #fff;
   margin: 0 auto;
   overflow: hidden;
-  box-shadow: 0 0 35px 20px rgba(79, 69, 66, 0.2);
+  box-shadow: 0 0 35px 20px rgba(79, 69, 66, 0.474);
 }
 .slider-content .slide {
   position: absolute;
