@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+input,
+textarea {
+  font-family: "Poppins", sans-serif;
+  background-color: #443742;
+}
+
+
+body{
+    margin: 0%;
+   background-color: #515b3a ;
+}
+
+header{
+    background-color: #443742;
+    width: auto;
+    height: 10.5rem;
+    margin-bottom: 1.2rem;
+  }
+  
+  header img{
+    border-radius: 25px;
+    width: 100%;
+    height: auto;
+    margin-left: 2%;
+    padding: 1rem;
+    max-width: 250px;
+  }
+  
+  
+  .navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  
+  .brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+  }
+  
+  .navbar-links {
+    height: 100%;
+  }
+  
+  .navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-links li {
+    list-style: none;
+  }
+  
+  .navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+  }
+  
+  .navbar-links li:hover {
+    background-color: #555;
+  }
+  
+  .toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+  }
+  
+  .toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  @media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+  
+    .toggle-button {
+        display: flex;
+    }
+  
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+  
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+  
+    .navbar-links ul li {
+        text-align: center;
+    }
+  
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+  
+    .navbar-links.active {
+        display: flex;
+    }
+  }
+  
+
+
+
+
+
+.container {
+    
+    height: 600px;
+    width: 100%;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    display: flex;
+    
+}
+
+
+
+.textover {
+    width: 40%;
+    background-color: #aae286   ;
+    padding: 2%;
+
+}
+
+.imageover {
+    width: 60%;
+    background-color: #515b3a;
+ padding: -20%;
+}
+
+
+.fotodiv {
+    width: 160%;
+    border-radius: 10px;
+    
+}
+
+
+  
+
+
+.wiebenik {
+    background-color: #7fc256;
+    width: 70%;
+    padding: 1%;
+}
+
+.fotohendrik {
+    background-color: #7fc256;
+    width: 30%;
+    padding: 3%;
+}
+
+#hendrikfoto {
+    width: 50%;
+    border: 0.2em solid;
+    border-radius: 25%;
+}
+
+
+
+footer {
+  height: 20rem;
+ background-color: #443742;
+}
+
+#contactg {
+  color: #cdc7c7;
+  float: left;
+  height: 17rem;
+  width: 25%;
+  padding: 2%;
+  margin-left: 4%;
+  /* background: rgb(151, 255, 191); */
+}
+#contactg h2{
+  color: #fafafa;
+}
+
+#direct {
+  float: left;
+  width: 40%;
+  height: 16rem;
+  padding: 2%;
+  padding-left: 5%;
+  /* background: rgb(176, 26, 51); */
+  color: #fafafa;
+}
+
+#direct a {
+  color: #d2cdcd;
+  text-decoration: none;
+}
+
+#direct img {
+  width: 50%;
+  float: right;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#directleft{
+  float: left;
+}
+
+#website {
+  float: right;
+  /* background: #6ba368; */
+  width: 20%;
+  height: 10rem;
+  padding: 2%;
+  margin-right: 4%;
+  color: #fafafa;
+
+}
+
+#website a {
+  color: rgb(217, 211, 211);
+  text-decoration: none;
+}
+
+#credits{
+  color: #fff;
+  background: #312830;
+  text-align: center;
+}
