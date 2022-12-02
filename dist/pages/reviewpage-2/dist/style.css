@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+*, *::before, *::after {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 16px;
+  padding: 0rem 0rem 0;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-align: center;
+          align-items: center;
+  background: #ddd;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  font-weight: normal;
+}
+
+h1 {
+  margin: 0 0 3rem;
+  text-align: center;
+  font-size: 1.6em;
+  color: #000;
+}
+
+.wrap-cards {
+  display: -webkit-box;
+  font-family: 'Sarabun', sans-serif;
+  margin: 0rem 9rem 0rem;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+}
+
+.card {
+  width: 32%;
+  max-width: 100%;
+  height: 500px;
+  margin: 0 0 2rem;
+  box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+}
+.card .wrap-image {
+  position: relative;
+}
+.card .wrap-image img {
+  width: 200px;
+  height: 200px;
+  
+
+}
+
+.card .wrap-image svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 32x;
+}
+
+.card:nth-child(4) .wrap-image svg path {
+  stroke-width: 3px;
+}
+.card:nth-child(5) .wrap-image svg path {
+  stroke-width: 4px;
+}
+.card:nth-child(6) .wrap-image svg path {
+  stroke-width: 6px;
+}
+.card .contents {
+  padding: 1rem;
+  text-align: center;
+  
+}
+.card .contents h3 {
+  margin: 0 0 .5rem;
+  font-size: 1.125em;
+  color: #000;
+
+
+}
+.card .contents .text {
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 1.6;
+  font-size: .9em;
+}
+
+@media all and (max-width: 768px) {
+  .card {
+    width: 49%;
+    margin-bottom: 3rem;
+  }
+}
+@media all and (max-width: 480px) {
+  .card {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+}
+.footer {
+  padding:2rem 1rem 1rem 1rem;
+  margin-top: 1rem;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #db8e64;
+  color: white;
+  text-align: center;
+}
+
+.header{
+	padding:2rem 2rem -2rem 2rem;
+  margin: 0rem 0rem 2rem;
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: #db8e64;
+  color: white;
+  text-align: center;
+}
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination a.active {
+  background-color: #af4c4c;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #fff;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+
+
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+}
+
+
+
+body,
+
+input,
+
+textarea {
+
+  font-family: "Poppins", sans-serif;
+
+  background-color: #443742;
+
+}
